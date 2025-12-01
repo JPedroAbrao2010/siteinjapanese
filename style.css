@@ -9,8 +9,10 @@ h1{
     width: 200px;
     height: 200px;
     font-size: 150px;
-    margin-left: 369px;
-    transition: 15s;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: 13s;
     border-radius: 100px;
     background-color: red;
 
@@ -41,5 +43,6 @@ p{
         margin-left: 12px;
     }
   }
+
 
 
