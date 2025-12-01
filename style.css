@@ -20,5 +20,26 @@ p{
     font-family: sans-serif;
     
 }
+@media (max-width: 400px) {
+    
+    
+    h1 {
+      font-size: 38px; 
+    }
+    .button{
+        /* Centraliza horizontalmente o botão em telas pequenas */
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* Você pode querer que a largura ocupe mais espaço na tela pequena */
+        
+    }
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 12px;
+    }
+  }
 
 
